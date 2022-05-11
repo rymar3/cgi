@@ -9,6 +9,7 @@
 using namespace std;
 using namespace cgicc;
 int main() {
+    cout << "Content-type: text/html\r\n\r\n";
   Cgicc cgi;
  string op1;
  string nm1;
@@ -16,6 +17,8 @@ int main() {
   nm1 = cgi("num1");
   nm2 = cgi("num2");
   op1 = cgi("op1");
+  cout << "<html><head><meta charset=utf-8><title>Калькулятор</title></head><body>\n";
 cout << "<H1 align='center'> <font color='green'>" << nm1 << op1 << nm2 << "= 12" << "</font></H1>\n";
+cout << "</body></html>\n";
 return 0;
 }
