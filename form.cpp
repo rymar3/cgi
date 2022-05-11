@@ -16,6 +16,6 @@ int main() {
   nm1 = cgi("num1");
   nm2 = cgi("num2");
   op1 = cgi("op1");
-cout << "<H1 align='center'> <font color='green'>" << num1 << op1 << num2 << "= 12" << "</font></H1>\n";
+cout << "<H1 align='center'> <font color='green'>" << nm1 << op1 << nm2 << "= 12" << "</font></H1>\n";
 return 0
 }
