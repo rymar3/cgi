@@ -10,15 +10,15 @@ cout << "<h1 align=center><font size=10 color=green>Калькулятор</font
 cout << "<form action='form.cgi' method='post'>\n";
   cout << "<TABLE align='center' bgcolor='green'>\n";
   cout << "<TR>\n";
-  cout << "<TD><font color='white'>Перше число :</font>: </TD>\n";
+  cout << "<TD><font  size=10 color='white'>Перше число :</font>: </TD>\n";
   cout << "<TD><input type='text' size='10' maxlength='20' name='num1'> </TD>\n";
   cout << "</TR>\n";
   cout << "<TR>\n";
-  cout << "<TD><font color='white'>Друге число :</font> :  </TD>\n";
+  cout << "<TD><font size=10 color='white'>Друге число :</font> :  </TD>\n";
   cout << "<TD><input type='text' size='10' maxlength='20' name='num2'> </TD>\n";
   cout << "</TR>\n";
   cout << "<TR>\n";
-  cout << "<TD><font color='white'>Операція :</font> : </TD>\n";
+  cout << "<TD><font size=10 color='white'>Операція :</font> : </TD>\n";
   cout << "<TD><input type='text' size='10' maxlength='20' name='op1'></TD>\n";
   cout << "</TR>\n";
   cout << "</TABLE>\n";
