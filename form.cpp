@@ -25,7 +25,13 @@ int num2 = atoi(sf.c_str());
   cout << "<HR>\n";
   cout << "<H1 align='center'><font color='green'>Результат :</font></H1>\n";
   cout << "<p align=center>";
-cout << "<H1 align='center'> <font color='green'>" << nm1 << op1 << nm2 << " = "<< (num1*num2)  << "</font></H1>\n";
-cout << "</body></html>\n";
+
+if(op1=="*") cout << "<H1 align='center'> <font color='green'>" << nm1 << op1 << nm2 << " = "<< (num1*num2)  << "</font></H1>\n";
+if(op1=="/") cout << "<H1 align='center'> <font color='green'>" << nm1 << op1 << nm2 << " = "<< (num1/num2)  << "</font></H1>\n";
+if(op1=="+") cout << "<H1 align='center'> <font color='green'>" << nm1 << op1 << nm2 << " = "<< (num1+num2)  << "</font></H1>\n";
+if(op1=="-") cout << "<H1 align='center'> <font color='green'>" << nm1 << op1 << nm2 << " = "<< (num1-num2)  << "</font></H1>\n";
+
+cout << "<HR></body></html>\n";
+
 return 0;
 }
