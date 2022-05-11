@@ -21,9 +21,10 @@ std::string si = nm1;
 std::string sf = nm2;
 int num1 = atoi(si.c_str());
 int num2 = atoi(sf.c_str());
-
-
   cout << "<html><head><meta charset=utf-8><title>Калькулятор</title></head><body>\n";
+  cout << "<HR>\n";
+  cout << "<H1 align='center'><font color='green'>Результат :</font></H1>\n";
+  cout << "<p align=center>";
 cout << "<H1 align='center'> <font color='green'>" << nm1 << op1 << nm2 << " = "<< (num1*num2)  << "</font></H1>\n";
 cout << "</body></html>\n";
 return 0;
