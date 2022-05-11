@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main(void) {
-printf("Content-Type: text/html\n\n");
-printf("<h1 align=center>Hello world FROM RYMAR </H1>");
-printf("<h3 align=center>PROGRAM CPP </H3>");
+cout << "Content-Type: text/html\n\n";
+
+cout << "<h1 align=center><font size=5 color=green>Калькулятор</font></h1>\n";
+
+
+
 return 0;
 }
