@@ -17,5 +17,5 @@ int main() {
   nm2 = cgi("num2");
   op1 = cgi("op1");
 cout << "<H1 align='center'> <font color='green'>" << nm1 << op1 << nm2 << "= 12" << "</font></H1>\n";
-return 0
+return 0;
 }
