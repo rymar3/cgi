@@ -34,10 +34,10 @@ std::string sf = nm2;
 int num1 = atoi(si.c_str());
 int num2 = atoi(sf.c_str());
 
-if(op1=="*") cout << "<H1 align='center'> <font color='green'>" << num1 << op1 << num2 << "= " << (n
-if(op1=="/") cout << "<H1 align='center'> <font color='green'>" << num1 << op1 << num2 << "= " << (n
-if(op1=="+") cout << "<H1 align='center'> <font color='green'>" << num1 << op1 << num2 << "= " << (n
-if(op1=="-") cout << "<H1 align='center'> <font color='green'>" << num1 << op1 << num2 << "= " << (n
+if(op1=="*") cout << "<H1 align='center'> <font color='green'>" << num1 << op1 << num2 << "= " << (num1*num2) << "</font></H1>\n";
+if(op1=="/") cout << "<H1 align='center'> <font color='green'>" << num1 << op1 << num2 << "= " << (num1/num2) << "</font></H1>\n";
+if(op1=="+") cout << "<H1 align='center'> <font color='green'>" << num1 << op1 << num2 << "= " << (num1+num2) << "</font></H1>\n";
+if(op1=="-") cout << "<H1 align='center'> <font color='green'>" << num1 << op1 << num2 << "= " << (num1-num2) << "</font></H1>\n";
 
   } else {.
     cout << "Не всі числа введені !.";
