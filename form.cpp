@@ -39,7 +39,7 @@ if(op1=="/") cout << "<H1 align='center'> <font color='green'>" << num1 << op1 <
 if(op1=="+") cout << "<H1 align='center'> <font color='green'>" << num1 << op1 << num2 << "= " << (num1+num2) << "</font></H1>\n";
 if(op1=="-") cout << "<H1 align='center'> <font color='green'>" << num1 << op1 << num2 << "= " << (num1-num2) << "</font></H1>\n";
 
-  } else {.
+  } else {
     cout << "Не всі числа введені !.";
   }
   cout << "</p>\n";
