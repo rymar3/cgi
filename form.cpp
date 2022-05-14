@@ -12,7 +12,7 @@ int main() {
   Cgicc cgi;
   string op1;
  string nm1;
- string nm2;
+ string nm2;  
   cout << "Content-type: text/html\r\n\r\n";
   cout << "<!doctype html>\n";
   cout << "<html lang=\"en\">\n";
