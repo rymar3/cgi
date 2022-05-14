@@ -8,7 +8,7 @@
 #include <cgicc/HTMLClasses.h>
 using namespace std;
 using namespace cgicc;
-int main() {
+int main() {   
   Cgicc cgi;
   string op1;
  string nm1;
