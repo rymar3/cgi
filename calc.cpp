@@ -13,7 +13,7 @@ int main() {
   cout << "<body>\n";
 
   cout << "<HR>\n";
-  cout << "<H1 align='center'><font color='green'>Калькулятор :</font></H1>\n";
+  cout << "<H1 align='center'><font color='green'>Калькулятор Римара:</font></H1>\n";
   cout << "<form action='form.cgi' method='post'>\n";
   cout << "<TABLE align='center' bgcolor='green'>\n";
   cout << "<TR>\n";
