@@ -34,3 +34,4 @@ int main() {
   cout << "<input type='reset' value='Очистити'>\n";
   cout << "</p>\n";
    cout << "</form>\n";
+}
